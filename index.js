@@ -241,4 +241,4 @@ const Sra7a = [
 });
 
 
-client.login("NzMyNzA1MDc3MzE5NTY1Mzg2.XxBGiQ.lphJ6T4lcVaBB1PXGk2g4jUtO0U");
+client.login("");
