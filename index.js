@@ -109,7 +109,6 @@ message.channel.sendEmbed(lo);
 var memes =["https://cdn.discordapp.com/attachments/422454766468202511/426482204835708938/fkk1.png","https://cdn.discordapp.com/attachments/422454766468202511/426482399757467648/fkk2.png","https://cdn.discordapp.com/attachments/422454766468202511/426486610729762816/fkk3.png","https://cdn.discordapp.com/attachments/422454766468202511/426486726907789332/fkk4.png","https://cdn.discordapp.com/attachments/422454766468202511/426486904343625729/fkk5.png","https://cdn.discordapp.com/attachments/422454766468202511/426487095943495703/fkk6.png","https://cdn.discordapp.com/attachments/422454766468202511/426487229796450304/fkk7.png","https://cdn.discordapp.com/attachments/422454766468202511/426487556461559819/fkk8.png","https://cdn.discordapp.com/attachments/422454766468202511/426487784736423956/fkk9.png","https://cdn.discordapp.com/attachments/422454766468202511/426487945554558991/fkk10.png","https://cdn.discordapp.com/attachments/422454766468202511/426488069672140800/fkk11.png","https://cdn.discordapp.com/attachments/422454766468202511/426488213872312330/fkk12.png","https://cdn.discordapp.com/attachments/422454766468202511/426488358097649688/fkk13.png","https://cdn.discordapp.com/attachments/422454766468202511/426488491359338516/fkk14.png"]
 client.on('message', message => {
              
-  var prefix = "-";
 if(message.content.startsWith(prefix + 'فكك')) {
   if(!message.channel.guild) return message.reply('** ممنوع كتابة الاوامر في خاص البوت**');
      var embed = new Discord.RichEmbed()
