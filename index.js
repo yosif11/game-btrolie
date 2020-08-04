@@ -230,9 +230,10 @@ const Sra7a = [
 	   .addField("✽-  **${prefix}اسرع  -->  『x يعطيك كلمه ولازم تكتبها بسرعه x』**",' ‎ ')
 	 	   .addField("✽-  **${prefix}صراحة    -->  『x يعطيك جمله تجاوب عليها بكل صراحه x』**",' ‎ ')
             
- .setFooter('||جميع الحقوق محفوضه لدى بترولي ©||')
+ .setFooter(' فكرة وتصميم ElcapitanoELmasry - The legends©||')
+ .setfooter('تم تصميم صورة By:ISLAM GAMER ||')
 
-
+	  
    message.channel.send({embed});
 
 
